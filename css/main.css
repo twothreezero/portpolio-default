@@ -1,0 +1,113 @@
+/* MAIN */
+.main {
+  position: relative;
+}
+.main .img-area {
+  background-color: #fefef7;
+  width: 100vh;
+  height: 100vh;
+}
+.main .img-area img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  opacity: 0;
+  transform: scale(0.5);
+  transition: opacity 1.2s ease-out, transform 1.2s ease-out;
+}
+.img-area.show img {
+  opacity: 1;
+  transform: scale(1);
+}
+.main .text-area {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 1.2s ease-out, transform 1.2s ease-out;
+  transform: translateY(30px);
+  transition-delay: 0.3s;
+}
+.main.show .text-area {
+  opacity: 1;
+  transform: translateY(0);
+}
+.main .text-area p {
+  color: #ebebf5;
+}
+
+/* PROJECT */
+.project {
+  padding: 100px 0;
+}
+.project .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.project .item {
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+.project .item.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+.project .item img {
+  background-image: url(../img/placeholder.png);
+  border-radius: 10px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  aspect-ratio: 1.5 / 1;
+  transform: scale(0.8);
+  transition: transform 0.8s ease-out;
+  opacity: 0.7;
+}
+.project .item.show img {
+  transform: scale(1);
+}
+.project .item img:hover {
+  filter: brightness(0.7);
+}
+.project .text-table {
+  margin: 15px 0 30px;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  transition-delay: 0.3s;
+}
+.item.show .text-table {
+  opacity: 1;
+  transform: translateY(0);
+}
+.project .title {
+  font-size: 24px;
+  font-weight: bold;
+}
+.project .content {
+  font-size: 14px;
+  padding-top: 5px;
+}
+.project hr {
+  margin: 20px 0;
+}
+.project .category {
+  font-size: 12px;
+}
