@@ -1,13 +1,18 @@
 /* MAIN */
 .main {
   position: relative;
-}
-.main .img-area {
-  background-color: #fefef7;
-  width: 100vh;
+  width: 100%;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.1s ease-out, opacity 0.1s ease-out;
 }
-.main .img-area img {
+.main .main-area.shrink {
+  transform: scale(0);
+  opacity: 0.5;
+}
+.main .main-area img {
   max-width: 100%;
   height: auto;
   object-fit: cover;
@@ -17,15 +22,8 @@
   left: 0;
   right: 0;
   margin: auto;
-  opacity: 0;
-  transform: scale(0.5);
-  transition: opacity 1.2s ease-out, transform 1.2s ease-out;
 }
-.img-area.show img {
-  opacity: 1;
-  transform: scale(1);
-}
-.main .text-area {
+.main .main-area .text-area {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -35,17 +33,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  opacity: 0;
-  transition: opacity 1.2s ease-out, transform 1.2s ease-out;
-  transform: translateY(30px);
-  transition-delay: 0.3s;
 }
-.main.show .text-area {
-  opacity: 1;
-  transform: translateY(0);
-}
-.main .text-area p {
+.main .main-area .text-area p {
   color: #ebebf5;
+  font-size: 20px;
 }
 
 /* PROJECT */
