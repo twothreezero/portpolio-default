@@ -47,10 +47,14 @@ header .logo {
   font-size: 34px;
 }
 header .info {
+  color: #0830a6;
   font-size: 20px;
 }
 
 /* FOOTER */
+footer {
+  position: relative;
+}
 footer .container {
   display: flex;
   justify-content: center;

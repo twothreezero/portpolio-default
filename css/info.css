@@ -1,8 +1,31 @@
 .info-box {
-  background-color: orange;
-  position: relative;
+  padding: 250px 0 100px;
 }
-
 .info-item {
-  background-color: aqua;
+  display: flex;
+  padding-bottom: 100px;
+}
+.info-item__title {
+  width: 50%;
+  position: relative;
+  left: 0;
+  font-size: 22px;
+  font-weight: 700;
+}
+.info-item__text {
+  width: 50%;
+  position: relative;
+  right: 0;
+  margin-left: 20px;
+}
+.text__title {
+  font-weight: 600;
+  font-size: 14px;
+}
+.text__sub {
+  padding: 25px 0;
+  font-size: 12px;
+}
+.text__sub p {
+  padding: 5px 0;
 }
