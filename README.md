@@ -1,3 +1,3 @@
-# twothreezero portfolio
+# twothreezero Portfolio
 
-HTML & CSS & JS
+Use React
