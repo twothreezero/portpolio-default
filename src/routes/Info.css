@@ -1,5 +1,8 @@
 .info-box {
-  padding: 250px 0 100px;
+  padding: 250px 20px 100px;
+}
+.info-box .container > hr {
+  margin-bottom: 10px;
 }
 .info-box .page-link {
   margin-bottom: 50px;
