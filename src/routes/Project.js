@@ -1,10 +1,10 @@
 import React from 'react';
-import Mixedcode from '../components/Mixedcode';
-import Beginmate from '../components/Beginmate';
-import Kokoatalk from '../components/Kokoatalk';
-import Paintboard from '../components/Paintboard';
-import Starbucks from '../components/Starbucks';
-import Imdb from '../components/Imdb';
+import Mixedcode from './pages/Mixedcode';
+import Beginmate from './pages/Beginmate';
+import Kokoatalk from './pages/Kokoatalk';
+import Paintboard from './pages/Paintboard';
+import Starbucks from './pages/Starbucks';
+import Imdb from './pages/Imdb';
 
 import './Project.css'
 

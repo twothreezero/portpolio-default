@@ -1,6 +1,6 @@
 import React from 'react';
-import Img from '../img/beginmate.png';
-import useIntersectionObserver from './useIntersectionObserver'; // 1. 훅 임포트
+import Img from '../../img/beginmate.png';
+import useIntersectionObserver from '../../components/useIntersectionObserver'; // 1. 훅 임포트
 
 function Beginmate() {
   const [ref, isIntersecting] = useIntersectionObserver({ threshold: 0.3 });

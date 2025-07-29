@@ -1,6 +1,6 @@
 import React from 'react';
-import Img from '../img/placeholder.png';
-import useIntersectionObserver from './useIntersectionObserver';
+import Img from '../../img/placeholder.png';
+import useIntersectionObserver from '../../components/useIntersectionObserver';
 
 
 function Mixedcode() {

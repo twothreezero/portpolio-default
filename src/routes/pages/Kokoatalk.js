@@ -1,6 +1,6 @@
 import React from 'react';
-import Img from '../img/imdb.png';
-import useIntersectionObserver from './useIntersectionObserver';
+import Img from '../../img/kokoatalk.png';
+import useIntersectionObserver from '../../components/useIntersectionObserver';
 
 
 function Mixedcode() {
@@ -9,16 +9,16 @@ function Mixedcode() {
 
   return (
     <div ref={ref} className={itemClassName}>
-      <a href="https://vue3-movie-app-ttz.netlify.app/" target="_blank" rel="noreferrer">
+      <a href="https://kokoatalk-clone-ttz.netlify.app/" target="_blank" rel="noreferrer">
         <img src={Img} alt="imdb" />
       </a>
       <div class="text-table">
-        <p class="title">IMDB</p>
+        <p class="title">KokoaTalk</p>
         <div class="content">
-          <span>Vue.js | Scss </span>
+          <span>HTML | CSS </span>
         </div>
         <hr />
-        <div class="category">2025 / Toy Projcet 4</div>
+        <div class="category">2021 / Toy Projcet 1</div>
       </div>
     </div>
   )
