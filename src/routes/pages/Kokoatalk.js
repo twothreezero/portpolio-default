@@ -12,13 +12,13 @@ function Mixedcode() {
       <a href="https://kokoatalk-clone-ttz.netlify.app/" target="_blank" rel="noreferrer">
         <img src={Img} alt="imdb" />
       </a>
-      <div class="text-table">
-        <p class="title">KokoaTalk</p>
-        <div class="content">
+      <div className="text-table">
+        <p className="title">KokoaTalk</p>
+        <div className="content">
           <span>HTML | CSS </span>
         </div>
         <hr />
-        <div class="category">2021 / Toy Projcet 1</div>
+        <div className="category">2021 / Toy Projcet 1</div>
       </div>
     </div>
   )

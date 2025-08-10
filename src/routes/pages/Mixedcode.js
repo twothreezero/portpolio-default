@@ -1,5 +1,6 @@
 import React from 'react';
 import Img from '../../img/mixedcode.png';
+// import Page from '../../html/msoftware.html'
 import useIntersectionObserver from '../../components/useIntersectionObserver';
 
 
@@ -9,7 +10,7 @@ function Mixedcode() {
 
   return (
     <div ref={ref} className={itemClassName}>
-      <a href="./html/msoftware.html">
+      <a href="/">
         <img src={Img} alt="mixedcode" />
       </a>
       <div className="text-table">

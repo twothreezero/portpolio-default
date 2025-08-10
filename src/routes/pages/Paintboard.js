@@ -12,13 +12,13 @@ function Mixedcode() {
       <a href="https://paint-board-ttz.netlify.app/" target="_blank" rel="noreferrer">
         <img src={Img} alt="placeholder" />
       </a>
-      <div class="text-table">
-        <p class="title">Paint Board</p>
-        <div class="content">
+      <div className="text-table">
+        <p className="title">Paint Board</p>
+        <div className="content">
           <span>HTML | CSS | JS</span>
         </div>
         <hr />
-        <div class="category">2023 / Toy Projcet 2</div>
+        <div className="category">2023 / Toy Projcet 2</div>
       </div>
     </div>
   )

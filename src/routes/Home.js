@@ -8,7 +8,7 @@ function Home() {
       <section className="main">
         <div className="container">
           <div className="text-area">
-            <p>Psalm 23:1</p>
+            Pslam 23:1
           </div>
         </div>
       </section>

@@ -12,13 +12,13 @@ function Mixedcode() {
       <a href="https://starbuck-clone-ttz.netlify.app/" target="_blank" rel="noreferrer">
         <img src={Img} alt="starbucks" />
       </a>
-      <div class="text-table">
-        <p class="title">STARBUCKS</p>
-        <div class="content">
+      <div className="text-table">
+        <p className="title">STARBUCKS</p>
+        <div className="content">
           <span>HTML | CSS | JavaScript </span>
         </div>
         <hr />
-        <div class="category">2022 / Toy Projcet 3</div>
+        <div className="category">2022 / Toy Projcet 3</div>
       </div>
     </div>
   )

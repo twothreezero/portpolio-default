@@ -12,13 +12,13 @@ function Mixedcode() {
       <a href="https://vue3-movie-app-ttz.netlify.app/" target="_blank" rel="noreferrer">
         <img src={Img} alt="imdb" />
       </a>
-      <div class="text-table">
-        <p class="title">IMDB</p>
-        <div class="content">
+      <div className="text-table">
+        <p className="title">IMDB</p>
+        <div className="content">
           <span>Vue.js | Scss </span>
         </div>
         <hr />
-        <div class="category">2025 / Toy Projcet 4</div>
+        <div className="category">2025 / Toy Projcet 4</div>
       </div>
     </div>
   )

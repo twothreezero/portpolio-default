@@ -1,35 +1,35 @@
-.info-box {
+.about-box {
   padding: 250px 20px 100px;
 }
-.info-box .container > hr {
+.about-box .container > hr {
   margin-bottom: 10px;
 }
-.info-box .page-link {
+.about-box .page-link {
   margin-bottom: 50px;
   text-align: center;
 }
-.info-box .page-link a:hover {
+.about-box .page-link a:hover {
   border-bottom: 1px solid;
 }
-.info-box img {
+.about-box img {
   max-width: 100%;
   height: auto;
   object-fit: cover;
   border-radius: 12px;
   margin-bottom: 50px;
 }
-.info-item {
+.about-item {
   display: flex;
   padding-bottom: 50px;
 }
-.info-item__title {
+.about-item__title {
   width: 50%;
   position: relative;
   left: 0;
   font-size: 22px;
   font-weight: 700;
 }
-.info-item__text {
+.about-item__text {
   width: 50%;
   position: relative;
   right: 0;
