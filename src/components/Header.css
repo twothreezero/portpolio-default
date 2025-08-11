@@ -1,56 +1,49 @@
-@font-face {
-  font-family: "LOTTERIACHAB";
-  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/LOTTERIACHAB.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "OKGUNG";
-  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/OKGUNG.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
-}
-
-.header {
+.nav-wrap {
   padding: 0 20px;
   position: fixed;
-  top: 0;
+  top: 20px;
   left: 0;
   width: 100%;
   box-sizing: border-box;
   z-index: 9;
 }
 
-.header .container {
+.nav {
   height: 90px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-radius: 18px;
+  padding: 0 10px;
+  margin: 0 auto;
+  transition: width 2s ease, background-color 0.5s ease;
+}
+.nav.shrink {
+  background-color: #fefefe;
+  width: 80%;
 }
 
-.header__group {
+.nav__logo {
   display: flex;
   align-items: center;
 }
 
-.header__logo {
+.nav__logo > .logo {
   width: 50px;
 }
 
-.header__title {
+.nav__title {
   font-size: 24px;
 }
-
-.header__menu {
+.nav__list {
   display: flex;
 }
 
-.header__menu li {
+.nav__list .nav__item {
   margin-left: 12px;
   font-size: 14px;
 }
 
-.header__menu li:last-child {
+.nav__menu .nav__item:last-child {
   margin-right: 12px;
 }

@@ -25,7 +25,12 @@
   justify-content: center;
   align-items: center;
 }
-.main .text-area {
+
+.main .main__img {
+  width: 100%;
+}
+
+.main .main__text {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35,7 +40,7 @@
 }
 
 @media (max-width: 760px) {
-  .main .text-area {
+  .main .main__text {
     font-size: 2em;
   }
 }

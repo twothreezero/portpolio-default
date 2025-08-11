@@ -1,29 +1,40 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import img from '../img/logo.png'
+import { useEffect, useState } from "react";
+
+import Img from '../img/logo.png'
 
 import './Header.css';
 
 function Header() {
+  const [isShrink, setIsShrink] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsShrink(window.scrollY > 100);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <header className="header">
-      <nav className="container">
-        <Link to="/">
-          <div className="header__group">
-            <img className="header__logo" src={img} alt="logoImg" />
-            <div className="header__title">
-              PORTPOLIO
-            </div>
+    <header className="nav-wrap">
+      <nav className={`nav ${isShrink ? "shrink" : ""}`}>
+        <Link to="/" className="nav__logo">
+          <img className="logo" src={Img} alt="logo" />
+          <div className="nav__title">
+            PORTPOLIO
           </div>
         </Link>
-        <ul className='header__menu'>
-          <Link to="/about">
+        <ul className='nav__list'>
+          <Link to="/about" className="nav__item">
             <li>ABOUT</li>
           </Link>
-          <Link to="/careers">
+          <Link to="/careers" className="nav__item">
             <li>CAREERS</li>
           </Link>
-          <Link to="/project">
+          <Link to="/project" className="nav__item">
             <li>PROJECT</li>
           </Link>
         </ul>

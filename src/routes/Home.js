@@ -1,5 +1,6 @@
 import React from 'react';
 import Project from '../routes/Project';
+
 import './Home.css';
 
 function Home() {
@@ -7,7 +8,8 @@ function Home() {
     <main className="home">
       <section className="main">
         <div className="container">
-          <div className="text-area">
+          {/* <img className="main__img" src="" alt="background" /> */}
+          <div className="main__text">
             Pslam 23:1
           </div>
         </div>
