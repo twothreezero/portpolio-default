@@ -8,9 +8,8 @@ function Home() {
     <main className="home">
       <section className="main">
         <div className="container">
-          {/* <img className="main__img" src="" alt="background" /> */}
           <div className="main__text">
-            Pslam 23:1
+            요 8:32 진리를 알지니 진리가 너희를 자유롭게 하리라
           </div>
         </div>
       </section>
