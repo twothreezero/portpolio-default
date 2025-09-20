@@ -1,13 +1,9 @@
 import React from 'react';
 import Img from '../../img/beginmate.png';
-import useIntersectionObserver from '../../components/useIntersectionObserver'; // 1. 훅 임포트
 
 function Beginmate() {
-  const [ref, isIntersecting] = useIntersectionObserver({ threshold: 0.3 });
-  const itemClassName = `item ${isIntersecting ? 'show' : ''}`;
-
   return (
-    <div ref={ref} className={itemClassName}>
+    <div className='item'>
       <a href="./html/beginmate.html">
         <img src={Img} alt="beginmate" />
       </a>

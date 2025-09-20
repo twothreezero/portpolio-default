@@ -1,15 +1,9 @@
 import React from 'react';
 import Img from '../../img/mixedcode.png';
-// import Page from '../../html/msoftware.html'
-import useIntersectionObserver from '../../components/useIntersectionObserver';
-
 
 function Mixedcode() {
-  const [ref, isIntersecting] = useIntersectionObserver({ threshold: 0.3 });
-  const itemClassName = `item ${isIntersecting ? 'show' : ''}`;
-
   return (
-    <div ref={ref} className={itemClassName}>
+    <div className='item'>
       <a href="/">
         <img src={Img} alt="mixedcode" />
       </a>

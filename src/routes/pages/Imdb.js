@@ -1,14 +1,9 @@
 import React from 'react';
 import Img from '../../img/imdb.png';
-import useIntersectionObserver from '../../components/useIntersectionObserver';
-
 
 function Mixedcode() {
-  const [ref, isIntersecting] = useIntersectionObserver({ threshold: 0.3 });
-  const itemClassName = `item ${isIntersecting ? 'show' : ''}`;
-
   return (
-    <div ref={ref} className={itemClassName}>
+    <div className='item'>
       <a href="https://vue3-movie-app-ttz.netlify.app/" target="_blank" rel="noreferrer">
         <img src={Img} alt="imdb" />
       </a>

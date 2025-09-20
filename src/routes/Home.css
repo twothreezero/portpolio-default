@@ -5,29 +5,35 @@
   font-style: normal;
 }
 
-.main {
-  background-image: url(../img/main.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  aspect-ratio: 1.5 / 1;
+.home {
   position: relative;
+}
+
+.intro {
+  background-color: var(--violet);
+  padding: 0 40px;
   width: 100%;
+  height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  gap: 20px;
 }
 
-.main .main__text {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 2em;
+.intro__text {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.intro__text p {
   font-family: "OKGUNG";
+  font-size: 32px;
 }
 
-@media (max-width: 760px) {
-  .main .main__text {
-    font-size: 2em;
-  }
+.intro__btn {
+  color: var(--black);
+}
+
+.intro__btn:hover {
+  color: var(--white);
 }

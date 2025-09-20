@@ -1,4 +1,5 @@
 import React from 'react';
+
 import Mixedcode from './pages/Mixedcode';
 import Beginmate from './pages/Beginmate';
 import Kokoatalk from './pages/Kokoatalk';
@@ -6,9 +7,9 @@ import Paintboard from './pages/Paintboard';
 import Starbucks from './pages/Starbucks';
 import Imdb from './pages/Imdb';
 
-import './Project.css'
+import './Ideas.css'
 
-function Project() {
+function Ideas() {
   return (
     <section className="project">
       <div className="container">
@@ -23,4 +24,4 @@ function Project() {
   )
 }
 
-export default Project;
+export default Ideas;
