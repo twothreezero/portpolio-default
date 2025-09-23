@@ -1,6 +1,5 @@
 import React from 'react';
 import img from '../img/placeholder.png'
-import img2 from '../img/beginmate.png'
 
 import './About.css'
 
