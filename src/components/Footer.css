@@ -1,15 +1,19 @@
 .footer {
-  position: relative;
-  bottom: 0;
+  background-color: var(--blk);
   padding: 40px;
-  border-top: 1px solid #1c1c1c;
-  border-bottom: 1px solid #1c1c1c;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 30px;
 }
 
-.footer p {
+.footer__text {
+  color: var(--wht);
   font-size: 18px;
+}
+
+.footer__info {
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer__logo {
@@ -19,4 +23,23 @@
 .footer__link {
   display: flex;
   gap: 15px;
+}
+
+.footer__middle {
+  background-image: url("../img/footer_bg.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 224px;
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__middle > .footer__text {
+  color: var(--blk);
+  font-size: 32px;
+  text-transform: uppercase;
 }

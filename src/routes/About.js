@@ -1,5 +1,4 @@
 import React from 'react';
-import img from '../img/placeholder.png'
 
 import './About.css'
 
@@ -9,16 +8,16 @@ function about() {
       <div className='about-box'>
         <div className='about-item'>
           <div className='about-item__title'>
-            <span className='about-item__title--s'>
-              안녕하세요!&nbsp;
+            <span className='about-item__title--bold'>
+              Hello!&nbsp;
             </span>
-            세상에 사랑이 넘치길 희망하는 이세영입니다.
+            I am Lee Saeyoung as frontend developer & designer.
           </div>
           <div className='about-item__content'>
             <div className='about-item__content--img'>
-              <img src={img} alt="profile" />
+              <img src="/img/placeholder.png" alt="profile" />
             </div>
-            <div className='about-item__content--text'>
+            <div className='about-item__content--text half'>
               창의적인 사고와 디자인을 사랑하는 프론트엔드 개발자 이세영입니다.
               새로운 아이디어가 떠오르면 이를 실제 구현하고 사용자와 소통하는 화면으로 만드는 과정에서 큰 즐거움을 느낍니다.
               디자인과 기능 사이의 균형을 중요하게 생각하며, 단순한 시각적 요소를 넘어 의미 있는 사용자 경험을 제공하는 데 집중합니다.
@@ -29,6 +28,28 @@ function about() {
           </div>
         </div>
 
+        <div className='about-item'>
+          <div className='about-item__title'>
+            <span className='about-item__title--bold'>
+              Work&nbsp;
+            </span>
+            Experience
+          </div>
+          <div className='about-item__content--wide '>
+            <div className='about-item__unit'>
+              <div className='about-item__unit--left'>
+                <div className='about-item__text'>
+                  always awake
+                </div>
+              </div>
+              <div className='about-item__unit--right'>
+                <div className='about-item__text'>
+                  stay young young young young young young young young
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   )

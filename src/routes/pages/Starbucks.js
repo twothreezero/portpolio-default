@@ -1,11 +1,10 @@
 import React from 'react';
-import Img from '../../img/starbucks.png';
 
 function Mixedcode() {
   return (
     <div className='item'>
       <a href="https://starbuck-clone-ttz.netlify.app/" target="_blank" rel="noreferrer">
-        <img src={Img} alt="starbucks" />
+        <img src="/img/starbucks.png" alt="starbucks" />
       </a>
       <div className="text-table">
         <p className="title">STARBUCKS</p>

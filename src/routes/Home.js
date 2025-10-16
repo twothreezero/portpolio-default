@@ -24,7 +24,7 @@ function Home() {
       <section className=''>
 
       </section>
-      {/* <Ideas /> */}
+      <Ideas />
     </main>
   )
 }

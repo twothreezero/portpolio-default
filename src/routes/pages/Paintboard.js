@@ -1,11 +1,10 @@
 import React from 'react';
-import Img from '../../img/placeholder.png';
 
 function Mixedcode() {
   return (
     <div className='item'>
       <a href="https://paint-board-ttz.netlify.app/" target="_blank" rel="noreferrer">
-        <img src={Img} alt="placeholder" />
+        <img src="/img/placeholder.png" alt="placeholder" />
       </a>
       <div className="text-table">
         <p className="title">Paint Board</p>

@@ -1,11 +1,10 @@
 import React from 'react';
-import Img from '../../img/imdb.png';
 
 function Mixedcode() {
   return (
     <div className='item'>
       <a href="https://vue3-movie-app-ttz.netlify.app/" target="_blank" rel="noreferrer">
-        <img src={Img} alt="imdb" />
+        <img src="/img/imdb.png" alt="imdb" />
       </a>
       <div className="text-table">
         <p className="title">IMDB</p>

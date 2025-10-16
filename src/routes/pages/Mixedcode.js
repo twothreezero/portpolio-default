@@ -1,11 +1,10 @@
 import React from 'react';
-import Img from '../../img/mixedcode.png';
 
 function Mixedcode() {
   return (
     <div className='item'>
       <a href="/">
-        <img src={Img} alt="mixedcode" />
+        <img src="/img/mixedcode.png" alt="mixedcode" />
       </a>
       <div className="text-table">
         <p className="title">MIXEDCODE</p>

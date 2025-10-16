@@ -1,12 +1,12 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
 
 :root {
-  --main: #003691;
-  --black: #1d1b1b;
-  --white: #f4f9fb;
+  --blk: #1c1c1c;
+  --wht: #f4f9fb;
+  --light-gray: #e4e4e4;
   --gray: #8e8e8e;
-  --love: #f03553;
-  --violet: #d7cdfe;
+  --red: #f03553;
+  --pur: #d7cdfe;
   --bg: #006bab;
 }
 
@@ -21,11 +21,11 @@
     "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   text-decoration: none;
   list-style: none;
-  color: var(--black);
+  color: var(--blk);
 }
 
 body {
-  background-color: var(--white);
+  background-color: var(--wht);
 }
 
 img {
@@ -36,21 +36,15 @@ img {
   display: flex;
 }
 
-.container {
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
-}
-
 .btn {
   cursor: pointer;
   font-size: 12px;
   padding: 10px 14px;
   box-sizing: border-box;
-  border: 1px solid var(--black);
+  border: 1px solid var(--blk);
   border-radius: 50px;
   background-color: transparent;
-  color: var(--black);
+  color: var(--blk);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -58,6 +52,6 @@ img {
 }
 
 .btn:hover {
-  background-color: var(--black);
-  color: var(--white);
+  background-color: var(--blk);
+  color: var(--wht);
 }

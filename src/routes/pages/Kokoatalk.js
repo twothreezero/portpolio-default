@@ -1,11 +1,10 @@
 import React from 'react';
-import Img from '../../img/kokoatalk.png';
 
 function Mixedcode() {
   return (
     <div className='item'>
       <a href="https://kokoatalk-clone-ttz.netlify.app/" target="_blank" rel="noreferrer">
-        <img src={Img} alt="imdb" />
+        <img src="/img/kokoatalk.png" alt="imdb" />
       </a>
       <div className="text-table">
         <p className="title">KokoaTalk</p>

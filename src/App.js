@@ -7,6 +7,7 @@ import Home from './routes/Home';
 import Works from './routes/Works';
 import Ideas from './routes/Ideas';
 import About from './routes/About';
+import Resume from './routes/Resume';
 
 import ScrollToTop from './utils/ScrollToTop';
 
@@ -17,10 +18,14 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/works" element={<Works />} />
-        <Route path="/ideas" element={<Ideas />} />
-        <Route path="/about" element={<About />} />
+        {/* 임시 메인 */}
+        <Route path='/' element={<Resume />} />
+        {/* 원래 메인 */}
+        <Route path='/home' element={<Home />} />
+        <Route path='/works' element={<Works />} />
+        <Route path='/ideas' element={<Ideas />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/resume' element={<Resume />} />
       </Routes>
       <Footer />
       <ScrollToTop />

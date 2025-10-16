@@ -1,11 +1,10 @@
 import React from 'react';
-import Img from '../../img/beginmate.png';
 
 function Beginmate() {
   return (
     <div className='item'>
       <a href="./html/beginmate.html">
-        <img src={Img} alt="beginmate" />
+        <img src="/img/beginmate_main.png" alt="beginmate" />
       </a>
       <div className="text-table">
         <p className="title">BEGINMATE</p>
