@@ -58,19 +58,17 @@ function Resume() {
                   <div className='list_img' style={{ backgroundImage: "url('/img/mixedcode.png')" }}></div>
                 </div>
                 <div className='list_text'>
-                  <Link to='' className='h5 list_title'>
+                  <Link to='https://mixedcode.com/' className='h5 list_title'>
                     엠소프트웨어
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.5 8C9.5 7.72386 9.72386 7.5 10 7.5H16C16.2761 7.5 16.5 7.72386 16.5 8V14C16.5 14.2761 16.2761 14.5 16 14.5C15.7239 14.5 15.5 14.2761 15.5 14V9.20711L8.35355 16.3536C8.15829 16.5488 7.84171 16.5488 7.64645 16.3536C7.45118 16.1583 7.45118 15.8417 7.64645 15.6464L14.7929 8.5H10C9.72386 8.5 9.5 8.27614 9.5 8Z" fill="var(--blk)"></path></svg>
                   </Link>
-                  <p className='paragraph list_description'>
+                  <p className='mt-8 paragraph list_description'>
                     플랫폼사업본부 · 선임연구원· 웹개발
                   </p>
                   <p className='mb-8 paragraph'>
-                    Node.js | Bootstrap | MySQL | AWS
-                    <br />
                     신규 플랫폼 개발
                     <br />
-                    2023.11 – 2024.02
+                    Node.js | Bootstrap | MySQL | AWS
                   </p>
                 </div>
               </div>
@@ -79,19 +77,17 @@ function Resume() {
                   <div className='list_img' style={{ backgroundImage: "url('/img/beginmate.png')" }}></div>
                 </div>
                 <div className='list_text'>
-                  <Link to='' className='h5 list_title'>
+                  <Link to='https://beginmate.com/' className='h5 list_title'>
                     비긴메이트
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.5 8C9.5 7.72386 9.72386 7.5 10 7.5H16C16.2761 7.5 16.5 7.72386 16.5 8V14C16.5 14.2761 16.2761 14.5 16 14.5C15.7239 14.5 15.5 14.2761 15.5 14V9.20711L8.35355 16.3536C8.15829 16.5488 7.84171 16.5488 7.64645 16.3536C7.45118 16.1583 7.45118 15.8417 7.64645 15.6464L14.7929 8.5H10C9.72386 8.5 9.5 8.27614 9.5 8Z" fill="var(--blk)"></path></svg>
                   </Link>
-                  <p className='paragraph list_description'>
+                  <p className='mt-8 paragraph list_description'>
                     플랫폼사업본부 · 주임연구원· 웹개발
                   </p>
                   <p className='mb-8 paragraph'>
-                    Node.js | Bootstrap | MySQL | AWS
-                    <br />
                     기존 플랫폼 리뉴얼
                     <br />
-                    2022.09 – 2023.03
+                    Node.js | Bootstrap | MySQL | AWS
                   </p>
                 </div>
               </div>
@@ -105,6 +101,7 @@ function Resume() {
           <div className='list_label'>
             <p className='label'>Projects</p>
           </div>
+          {/* IMDB */}
           <div className='list_box'>
             <div className=''>
               <div className='list_date'>
@@ -122,35 +119,15 @@ function Resume() {
                   IMDB
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.5 8C9.5 7.72386 9.72386 7.5 10 7.5H16C16.2761 7.5 16.5 7.72386 16.5 8V14C16.5 14.2761 16.2761 14.5 16 14.5C15.7239 14.5 15.5 14.2761 15.5 14V9.20711L8.35355 16.3536C8.15829 16.5488 7.84171 16.5488 7.64645 16.3536C7.45118 16.1583 7.45118 15.8417 7.64645 15.6464L14.7929 8.5H10C9.72386 8.5 9.5 8.27614 9.5 8Z" fill="var(--blk)"></path></svg>
                 </Link>
-                <p className='paragraph list_description'>
-                  On Medium, anyone can share insightful perspectives, useful knowledge, and life wisdom with the world.
+                <p className='mt-8 paragraph list_description'>
+                  Vue.js 기반 영화 검색 웹페이지
+                  <br />
+                  Vue.js | Scss | Webpack
                 </p>
               </div>
             </div>
           </div>
-          <div className='list_box'>
-            <div className=''>
-              <div className='list_date'>
-                {/* <p className='paragraph'>
-                  2022 - 2023
-                </p> */}
-              </div>
-            </div>
-            <div className='list_info flex'>
-              <div className='list_img_wrapper'>
-                <div className='list_img' style={{ backgroundImage: "url('/img/kokoatalk.png')" }}></div>
-              </div>
-              <div className='list_text'>
-                <Link to='https://kokoatalk-clone-ttz.netlify.app/' target='_blink' className='h5 list_title'>
-                  Kokoatalk
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.5 8C9.5 7.72386 9.72386 7.5 10 7.5H16C16.2761 7.5 16.5 7.72386 16.5 8V14C16.5 14.2761 16.2761 14.5 16 14.5C15.7239 14.5 15.5 14.2761 15.5 14V9.20711L8.35355 16.3536C8.15829 16.5488 7.84171 16.5488 7.64645 16.3536C7.45118 16.1583 7.45118 15.8417 7.64645 15.6464L14.7929 8.5H10C9.72386 8.5 9.5 8.27614 9.5 8Z" fill="var(--blk)"></path></svg>
-                </Link>
-                <p className='paragraph list_description'>
-                  On Medium, anyone can share insightful perspectives, useful knowledge, and life wisdom with the world.
-                </p>
-              </div>
-            </div>
-          </div>
+          {/* 스타벅스 */}
           <div className='list_box'>
             <div className=''>
               <div className='list_date'>
@@ -168,12 +145,15 @@ function Resume() {
                   Starbucks
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.5 8C9.5 7.72386 9.72386 7.5 10 7.5H16C16.2761 7.5 16.5 7.72386 16.5 8V14C16.5 14.2761 16.2761 14.5 16 14.5C15.7239 14.5 15.5 14.2761 15.5 14V9.20711L8.35355 16.3536C8.15829 16.5488 7.84171 16.5488 7.64645 16.3536C7.45118 16.1583 7.45118 15.8417 7.64645 15.6464L14.7929 8.5H10C9.72386 8.5 9.5 8.27614 9.5 8Z" fill="var(--blk)"></path></svg>
                 </Link>
-                <p className='paragraph list_description'>
-                  On Medium, anyone can share insightful perspectives, useful knowledge, and life wisdom with the world.
+                <p className='mt-8 paragraph list_description'>
+                  스타벅스 클론 코딩
+                  <br />
+                  HTML | CSS | JavaScript
                 </p>
               </div>
             </div>
           </div>
+          {/* 코코아톡 */}
           <div className='list_box'>
             <div className=''>
               <div className='list_date'>
@@ -184,15 +164,43 @@ function Resume() {
             </div>
             <div className='list_info flex'>
               <div className='list_img_wrapper'>
-                <div className='list_img' style={{ backgroundImage: "url('/img/placeholder.png')" }}></div>
+                <div className='list_img' style={{ backgroundImage: "url('/img/kokoatalk.png')" }}></div>
+              </div>
+              <div className='list_text'>
+                <Link to='https://kokoatalk-clone-ttz.netlify.app/' target='_blink' className='h5 list_title'>
+                  Kokoatalk
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.5 8C9.5 7.72386 9.72386 7.5 10 7.5H16C16.2761 7.5 16.5 7.72386 16.5 8V14C16.5 14.2761 16.2761 14.5 16 14.5C15.7239 14.5 15.5 14.2761 15.5 14V9.20711L8.35355 16.3536C8.15829 16.5488 7.84171 16.5488 7.64645 16.3536C7.45118 16.1583 7.45118 15.8417 7.64645 15.6464L14.7929 8.5H10C9.72386 8.5 9.5 8.27614 9.5 8Z" fill="var(--blk)"></path></svg>
+                </Link>
+                <p className='mt-8 paragraph list_description'>
+                  카카오톡 클론 코딩
+                  <br />
+                  HTML | CSS
+                </p>
+              </div>
+            </div>
+          </div>
+          {/* 그림판 */}
+          <div className='list_box'>
+            <div className=''>
+              <div className='list_date'>
+                {/* <p className='paragraph'>
+                  2022 - 2023
+                </p> */}
+              </div>
+            </div>
+            <div className='list_info flex'>
+              <div className='list_img_wrapper'>
+                <div className='list_img' style={{ backgroundImage: "url('/img/paintboard.png')" }}></div>
               </div>
               <div className='list_text'>
                 <Link to='https://paint-board-ttz.netlify.app/' target='_blink' className='h5 list_title'>
                   Paintboard
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.5 8C9.5 7.72386 9.72386 7.5 10 7.5H16C16.2761 7.5 16.5 7.72386 16.5 8V14C16.5 14.2761 16.2761 14.5 16 14.5C15.7239 14.5 15.5 14.2761 15.5 14V9.20711L8.35355 16.3536C8.15829 16.5488 7.84171 16.5488 7.64645 16.3536C7.45118 16.1583 7.45118 15.8417 7.64645 15.6464L14.7929 8.5H10C9.72386 8.5 9.5 8.27614 9.5 8Z" fill="var(--blk)"></path></svg>
                 </Link>
-                <p className='paragraph list_description'>
-                  On Medium, anyone can share insightful perspectives, useful knowledge, and life wisdom with the world.
+                <p className='mt-8 paragraph list_description'>
+                  간단한 그림판
+                  <br />
+                  HTML | CSS | JavaScript
                 </p>
               </div>
             </div>
