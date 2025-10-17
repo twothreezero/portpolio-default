@@ -37,7 +37,7 @@ function Resume() {
           </div>
         </div>
       </section>
-
+      {/* 경력 */}
       <section className='sub_section'>
         <div className='container bottom-line'>
           <div className='list_label'>
@@ -93,9 +93,29 @@ function Resume() {
               </div>
             </div>
           </div>
+          <div className='list_box'>
+            <div className=''>
+              <div className='list_date'>
+                <p className='paragraph'>
+                  2017 - 2018
+                </p>
+              </div>
+            </div>
+            <div className='list_info'>
+              <h3 className='mb-16 h3'>Fashion Designer Assistant</h3>
+              <div className=''>
+                <p className='mb-8 paragraph'>
+                  LA 소재의 패션 컴퍼니에서 디자인 어시스턴트로서 디자인과 물류 관련된 업무를 진행.
+                </p>
+                <p className='mb-8 paragraph'>
+                  Mono B inc. | 인턴, USA
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section >
-
+      {/* 프로젝트 */}
       <section className='sub_section'>
         <div className='container bottom-line'>
           <div className='list_label'>
@@ -207,7 +227,7 @@ function Resume() {
           </div>
         </div>
       </section>
-
+      {/* 교육 */}
       <section className='sub_section'>
         <div className='container bottom-line'>
           <div className='list_label'>
@@ -253,7 +273,7 @@ function Resume() {
           </div>
         </div>
       </section>
-
+      {/* 연락처 */}
       <section className='sub_section'>
         <div className='container bottom-line'>
           <div className='list_label'>
