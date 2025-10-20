@@ -21,7 +21,7 @@ function Resume() {
               </div>
               <div className='mb-16'>
                 <p className='paragraph'>
-                  Frontend Developer, Designer ,Creater
+                  Frontend Developer, Designer
                 </p>
               </div>
               <div className=''>
