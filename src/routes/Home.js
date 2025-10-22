@@ -10,7 +10,7 @@ function Home() {
     <main className='home'>
       <section className='intro'>
         <div className='intro__text'>
-          <p>세상엔 사랑이 필요해</p>
+          <p>행복</p>
         </div>
         <Link to='/about' className='intro__btn'>
           <button className='btn'>

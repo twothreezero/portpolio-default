@@ -48,11 +48,11 @@ function Header() {
               Ideas
             </NavLink>
           </li> */}
-          {/* <li className="nav__item">
+          <li className="nav__item">
             <NavLink to="/about">
               About
             </NavLink>
-          </li> */}
+          </li>
         </ul>
       </nav>
     </header>
