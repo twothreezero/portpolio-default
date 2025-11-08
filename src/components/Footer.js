@@ -9,7 +9,7 @@ function Footer() {
   return (
     <footer className='footer'>
       <p className='footer__text'>
-        세상에서 낭만을 느낄 수 있도록
+        Psalm 23:1
       </p>
       <div className='footer__middle'>
         <p className='footer__text'>
