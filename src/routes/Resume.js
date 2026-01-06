@@ -121,6 +121,32 @@ function Resume() {
           <div className='list_label'>
             <p className='label'>Projects</p>
           </div>
+          {/* Make Own Playlist */}
+          <div className='list_box'>
+            <div className=''>
+              <div className='list_date'>
+                {/* <p className='paragraph'>
+                  2022 - 2023
+                </p> */}
+              </div>
+            </div>
+            <div className='list_info flex'>
+              <div className='list_img_wrapper'>
+                <div className='list_img' style={{ backgroundImage: "url('/img/own-playlist.png')" }}></div>
+              </div>
+              <div className='list_text'>
+                <Link to='https://own-playlist.netlify.app/' target='_blink' className='h5 list_title'>
+                  Make Own Playlist
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.5 8C9.5 7.72386 9.72386 7.5 10 7.5H16C16.2761 7.5 16.5 7.72386 16.5 8V14C16.5 14.2761 16.2761 14.5 16 14.5C15.7239 14.5 15.5 14.2761 15.5 14V9.20711L8.35355 16.3536C8.15829 16.5488 7.84171 16.5488 7.64645 16.3536C7.45118 16.1583 7.45118 15.8417 7.64645 15.6464L14.7929 8.5H10C9.72386 8.5 9.5 8.27614 9.5 8Z" fill="var(--blk)"></path></svg>
+                </Link>
+                <p className='mt-8 paragraph list_description'>
+                  React + node 기반의 음악 검색 및 플레이리스트 공유
+                  <br />
+                  React | node.js
+                </p>
+              </div>
+            </div>
+          </div>
           {/* IMDB */}
           <div className='list_box'>
             <div className=''>

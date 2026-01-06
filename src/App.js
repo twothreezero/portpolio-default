@@ -6,7 +6,7 @@ import Footer from './components/Footer';
 import Home from './routes/Home';
 import Works from './routes/Works';
 import Ideas from './routes/Ideas';
-import About from './routes/About';
+// import About from './routes/About';
 import Resume from './routes/Resume';
 
 import ScrollToTop from './utils/ScrollToTop';
@@ -24,7 +24,7 @@ function App() {
         <Route path='/home' element={<Home />} />
         <Route path='/works' element={<Works />} />
         <Route path='/ideas' element={<Ideas />} />
-        <Route path='/about' element={<About />} />
+        {/* <Route path='/about' element={<About />} /> */}
         <Route path='/resume' element={<Resume />} />
       </Routes>
       <Footer />
