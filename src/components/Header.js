@@ -1,29 +1,28 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 
 import './Header.css';
 
 function Header() {
-  const [lastScrollY, setLastScrollY] = useState(0);
+  const lastScrollY = useRef(0);
   const [headerVisible, setHeaderVisible] = useState(true);
 
-  const handleScroll = () => {
-    const currentScrollY = window.scrollY;
-    if (currentScrollY > lastScrollY) {
-      setHeaderVisible(false);
-    } else {
-      setHeaderVisible(true);
-    }
-    setLastScrollY(currentScrollY);
-  };
-
   useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
 
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
+      if (currentScrollY > lastScrollY.current) {
+        setHeaderVisible(false);
+      } else {
+        setHeaderVisible(true);
+      }
+
+      lastScrollY.current = currentScrollY;
     };
-  }, [lastScrollY]);
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   return (
     <header className={`header ${headerVisible ? 'visible' : 'hidden'}`}>
